@@ -1,0 +1,56 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vortex | LOGIN</title>
+        <link rel="icon" type="image/png" href="https://1385425497.rsc.cdn77.org//variants/vortex/images/new_design/favicon-32x32.png" sizes="32x32">
+        <link rel="stylesheet" href="css/playnow.css">
+        <script src="https://kit.fontawesome.com/6e5acc8382.js" crossorigin="anonymous"></script>
+        <script>
+        function validateform(){
+            var name=document.login-form.login.value;
+            var password=document.login-form.password.value;
+        
+            if (name==null || name==""){
+                alert("Name can't be blank");
+                return false;
+            }
+            else if(password.length<6){
+                alert("Password must be at least 6 characters long.");
+                return false;
+            }
+        }
+        </script>
+    </head>
+    <body class="container">
+        <div class="heading">
+            <a href="index.html">
+                <img src="img/logo-thin-2.svg" alt=""> 
+            </a>
+        </div>
+        <form name=login-form method="POST">
+            <div class="form-box">
+                <div class="input">
+                    <div class="login-icon"><i class="fas fa-user"></i></div>
+                    <input type="text" placeholder="Login" name="login" required id="login"> 
+                    <div class="pass-icon"><i class="fas fa-lock"></i></div>
+                    <input type="password" placeholder="Password" name="password" required id="password">
+                </div>
+                <div class="login-btn">
+                    <div class="arrow"><i class="fas fa-arrow-right hover"></i></div>
+                    <button type="submit" onclick="return validateform();">LOGIN</button>
+                    <!-- <input type="submit" value="Submit"> -->
+                </div>
+            </div>
+        </form>
+        <div class="links">
+            <a href="">Reset password</a>
+            <br>
+            <a href="">Create new account</a>
+            <br>
+            <a href="">Terms and Conditions</a>
+        </div>
+    </body>
+</html>

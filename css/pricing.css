@@ -1,0 +1,25 @@
+body{
+	background: #181818;
+}
+.navbar{
+	background-color: #181818;
+	background-image: url(../img/pricing-yellow.svg) !important; 
+	background-position-x: 24.73% !important;
+	background-attachment: scroll;
+	background-size: 490px;
+	background: transparent;
+	background-repeat: no-repeat;
+}
+
+.pricing{
+	background-color: #181818;
+    background-image: url(../img/pricing-yellow.svg),url(../img/pricing-pink.svg),url(../img/pricing-purple.svg);
+    background-repeat: no-repeat;   
+    background-position: 29.88% top,bottom,right !important;
+    background-attachment: scroll;
+    height: 150vh;
+}
+
+#btn-regester{	
+	box-shadow:none !important;
+}

@@ -1,0 +1,249 @@
+.navbar{
+	background-color: #1397ff;
+	background-image: url(../img/register-form-tiltle-top-bg.svg) !important; 
+	background-position-x: 24.4%;
+	background-attachment: scroll;
+	background-size: 300px;
+}
+
+.download-main{
+	box-sizing: border-box;
+	height: 150vh;
+	background-color: #1397ff;
+	background-image: url(../img/register-form-tiltle-top-bg.svg),url(../img/hero-right-bg.svg) !important; 
+	background-repeat: no-repeat , no-repeat;
+	background-position: 29% top, bottom right;
+	background-size: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.download-main h1{
+	font-size: 60px;
+	color: white;
+}
+
+.hero-img-section{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 70px;
+	width: 100%;
+}
+
+.img-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.img-content img{
+	width: 430px;
+	height: 250px;
+}
+
+.img-content p{
+	font-size: 12px;
+	color: white;
+}
+
+.btn-download{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 90px;
+	width: 200px;
+	padding: 15px 10px;
+	background-color: white;
+	color: black;
+	margin-bottom: 25px;
+}
+
+.btn-download img{
+	width: 20px;
+	height: 20px;
+}
+
+
+/*SPEED SECTION/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.speed-section{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 110vh;
+	background-color: white;
+	color: black;
+	padding: 150px 0 0 0;
+}
+
+.speed{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding-top: 70px;
+}
+
+.speed-content{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 0 80px 0 80px;
+	margin-bottom: 80px;
+}
+
+.speed-content span i{
+	margin-right: 20px;
+	color: #1397ff;
+	font-size: 45px;
+}
+
+.speed-content h1{
+	font-size: 40px;
+}
+
+.speed-content .span{
+	display: inline;
+	transform: translate(-130px,50px);
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.wifi-txt{
+	transform: translate(-95px,50px)  !important ;
+}
+
+.speed-para-section{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.speed-para{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 30px;
+	margin: 30px;
+	font-size: 18px;
+	line-height: 28px;
+	width: 38vw;
+}
+
+.big-download-img{
+	margin-top: 10px;
+	justify-content: center;
+	display: flex;
+}
+
+.big-download-img img{
+	transform: translateY(120px) !important;
+}
+
+
+
+/*DOWNLOAD COMPATIBLE SECTION////////////////////////////////////////////////////////////////////////////////////*/
+
+.download-compitable-section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 75vh;
+	background-color: #9b00ff;
+	color: white;
+}
+
+.download-compitable-section h1{
+	font-size: 50px;
+	font-weight: 600;
+	margin-bottom: 70px;
+	margin-top: 150px;
+}
+
+.download-compitable-list{
+	display: flex;
+	text-align: center;
+	line-height: 35px;
+	font-size: 19px;
+	width: 90%;
+	letter-spacing: 0px;
+	word-spacing: 10px;
+}
+
+
+
+
+
+
+/* Media queries */
+
+@media (max-width:768px) {
+
+	.navbar{
+		backface-visibility: hidden;
+		background-color: #1397ff;
+		background-image: url(../img/register-form-tiltle-top-bg.svg) !important; 
+		background-position-x: 15.2%;
+		background-attachment: scroll;
+		background-size: 300px;
+	}
+
+	.download-main h1{
+		text-align: center;
+	}
+
+	.hero-img-section{
+		flex-wrap: wrap;
+	}
+
+	.img-content{
+		margin: 0;padding: 0;
+		margin-top: 70px;
+	}
+
+	.speed-section{
+		flex-wrap: wrap;
+		margin: 0;padding: 0;
+	}
+
+	.speed{
+		flex-wrap: wrap;
+		justify-content: center;
+		height: 40vh;
+	}
+
+	.speed-content:nth-child(2){
+		transform: translateX(-6vw);
+	}
+
+	.speed-content:nth-child(3){
+		transform: translateX(-2vw);
+	}
+	.big-download-img{
+		display: flex;
+		overflow-x: hidden;
+		justify-content: center;
+	}
+	.big-download-img img{
+		width: 700px;
+	}
+
+	.download-compitable-section h1{
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+

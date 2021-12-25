@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100; */
+    background: rgba(0, 0, 0, 0) linear-gradient(135deg, rgb(0, 24, 37) 0%, rgb(0, 125, 181) 98.91%) repeat scroll 0% 0%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.heading{
+    padding: 6vh 0 10vh 0;
+    /* height: 20vh; */
+}
+
+.heading img{
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.heading img:hover{
+    transform: scale(1.05);
+}
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a5774;
+    border: 0px solid white;
+    border-radius: 4px;
+    padding: 30px 32px 45px 32px;
+}
+
+.input  {
+    display: flex;
+    flex-direction: column;
+}
+
+.input input{
+    padding: 15px;
+    padding-left: 40px;
+    width: 317px;
+    margin-bottom: 15px;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    box-shadow: 2px 2px 60px rgba(0, 0, 0, 0.2);
+    color: #616161;
+}
+
+.input input:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 8px 1px rgb(0, 0, 0 ,0.3);
+}
+
+.input input:focus{
+    outline: none;
+}
+
+.login-btn{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.login-btn button{
+    margin-top: 25px;
+    padding: 13px;
+    width: 317px;
+    border: 1px solid #ff5e5e;
+    border-radius: 5px;
+    /* box-shadow: 2px 2px 6px rgba(0,0,0,0.5); */
+    background-color: #ff5e5e;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.login-btn button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 8px 5px rgb(255, 255, 255, 0.1);
+}
+
+
+
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 04vh 22vh 0 0;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    line-height: 35px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    transition: transform 0.3s;
+}
+
+.links a:hover{
+    color: #dfdfdf;
+    transform: scale(1.05);
+}
+
+.fas{
+    color: #ff5e5e;
+    position: relative;
+    top: 30px;
+    padding: 0 0 0 15px;
+}
+.fa-arrow-right{
+    position: relative;
+    top: 57px;
+    margin: 0px 0px 0px 270px;
+    color: white;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.hover{
+    transition: transform 1s;
+}
+
+.hover:hover{
+    transform: scale(1.03);
+}

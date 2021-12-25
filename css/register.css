@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	height: 100vh;
+	display: flex;
+}
+
+.create-side{
+	width: 60vw;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 90px 130px;
+}
+
+.create-head{
+	width: 450px;
+	display: flex;
+	color: black;
+	justify-content: space-between;
+	font-size: 24px;
+}
+
+#login a{
+	color: gray;
+	text-decoration: none;
+}
+
+#login a:hover{
+	color: black;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#create a{
+	color: #ff0050;
+	text-decoration: none;
+}
+
+/*#create a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}*/
+
+.pink-side{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 40vw;
+	padding: 0 70px;
+	background-color: #ff0050;
+	background-image: url(../img/register-form-tiltle-top-bg.svg),url(../img/hero-right-bg.svg);
+	background-repeat: no-repeat , no-repeat;
+	background-position: top, bottom right;
+	background-size: 300px,300px;
+}
+
+.logo-create{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+.reg-head{
+	font-size: 38px;
+	margin-top: 30px;
+	line-height: 80px;
+}
+
+.reg-head h1{
+	color: white;
+	font-size: 75px;
+}
+
+.reg-head a h1{
+	text-decoration: none;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	width: 450px;
+	box-sizing: border-box;
+}
+
+.form .span{
+	display: flex;
+	flex-direction: column;
+	padding: 0 10px;
+	margin-top: 30px;
+	font-size: 14px;
+	color: black;
+}
+
+.form div{
+	margin-top: 10px;	
+}
+
+
+
+#checkbox{
+	margin-right: 10px;
+	transform: translateY(2px);
+}
+
+.input{
+	width: 100%;	
+	height: 50px;
+	background-color: white;
+	color: #000000;
+	border: 1px solid #dfdfdf;
+	border-radius: 4px;
+	margin-bottom: 5px;
+	padding-left: 40px;
+	box-sizing: border-box;
+}
+
+.input:focus{
+	outline: none;
+}
+
+.input:hover{
+	border: 2px solid black;
+	background-color: #fafafa;
+}
+
+.fa-user{
+	/*position: absolute;*/
+	/*left: 790px;*/
+	/*top: 268px;*/
+	color: gray;
+}
+
+.fa-lock{
+	/*position: absolute;*/
+	/*left: 790px;*/
+	/*top: 327px;*/
+	color: gray;
+}
+
+.fas{
+	transform: translate(14px,32px);
+}
+
+.icon{
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	/*position: absolute;*/
+}
+
+.btn-create{
+	background-color: black !important;
+	color: white !important;
+	margin-top: 30px !important;
+	width: 99.5% !important;
+}
+/**/
